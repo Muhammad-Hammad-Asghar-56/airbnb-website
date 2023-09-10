@@ -1,35 +1,4 @@
-// import React from 'react'
-// import athelete from '../Assets/athelete.png'
-// import star from '../Assets/star.png'
-// import '../Style/Card.css'
-
-// const Card = (props) => {
-//   const {price,details,review,rating,country}= props
-//   return (
-//     <div className='card'>
-//         <img className='profilePic' src={athelete} alt="" />
-//         <div className='profile-stats'>
-//             <img width={'20px'} height={'20px'} src={star} alt="" />
-//             <span style={{marginLeft:'10px'}}>{`${rating}` }</span>
-//             <span className='lighter'>{`(${review}) ${country}` }</span>
-//         </div>
-//         <div>
-//             <p className='description'>{details}</p>
-//             <div>
-//                 <span className='price'>{price}</span>
-//                 <span> / person</span>
-//             </div>
-//         </div>
-//     </div>
-//   )
-// }
-
-// export default Card
-
-
-
 import React from 'react';
-// import athelete from '../Assets/athelete.png';
 import star from '../Assets/star.png';
 import '../Style/Card.css';
 
@@ -37,7 +6,8 @@ const Card = (props) => {
   const { price, details, review, rating, country,imagName } = props;
   return (
     <div className='card'>
-      <img className='profilePic' src={`../Assets/${imagName}`} alt="" />
+      
+      <img className='profilePic' src={require(`../Assets/${imagName}`)} alt="" />
       <div className='profile-stats'>
         <img width={'20px'} height={'20px'} src={star} alt="" />
         <span style={{ marginLeft: '10px' }}>{`${rating}`}</span>
