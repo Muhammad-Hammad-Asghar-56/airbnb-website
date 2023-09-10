@@ -1,0 +1,39 @@
+.card{
+    margin: 0px 5px;
+    /* width: 500px; */
+    min-width: 300px;
+    padding: 5px;
+}
+
+.profile-stats{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.profilePic{
+    width: 100%;
+    height: 60%;
+    border-radius: 10px;
+}
+.profile-stats > span{
+    font-size: small;
+}
+.lighter{
+    font-weight: 200;
+    color: gray;
+}
+.description{
+    font-size: medium;
+    padding: 0px 2px;
+    word-wrap: break-word;
+    
+    white-space: normal;   /* Allow normal whitespace wrapping */
+    overflow: hidden;      /* Hide text that overflows */
+    
+    line-height: 1.3em;    /* Adjust line height for proper spacing */
+    
+}
+.price{
+    padding: 0px 2px;
+    font-weight: bold;
+}

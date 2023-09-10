@@ -1,0 +1,16 @@
+.heroPic{
+    width: 50%;
+    height:25%
+}
+.heroComponent{
+    width: 70%;
+    margin: 0px auto;
+    padding:10px;
+}
+.heroPicContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}

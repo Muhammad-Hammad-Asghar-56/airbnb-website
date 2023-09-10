@@ -1,0 +1,13 @@
+.nav-bar{
+    display: flex;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 10%;
+    padding:1rem 5px 1rem 5rem;
+    border-bottom: 2px solid #EEEEEE;
+}
+.logoImg{
+    width: 200px;
+    height: 50px;
+}
